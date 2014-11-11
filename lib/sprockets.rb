@@ -33,6 +33,7 @@ module Sprockets
   autoload :EngineError,             "sprockets/errors"
   autoload :Error,                   "sprockets/errors"
   autoload :FileNotFound,            "sprockets/errors"
+  autoload :PathUtils,               'sprockets/path_utils'
   autoload :Utils,                   "sprockets/utils"
 
   module Cache
